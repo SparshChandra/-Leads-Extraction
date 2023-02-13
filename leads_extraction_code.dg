@@ -1,0 +1,32 @@
+recs = zoho.crm.getRecordById("Leads",LEADS_ID);
+info recs;
+name = recs.get("First_Name");
+email = recs.get("Email");
+phone = recs.get("Phone");
+info name + " " + email + " " + phone;
+//conditional statement to check if that particular record contains all the three values that is Name, Email and Phone
+// recs = zoho.crm.getRecordById("Leads",LEADS_ID);
+// if(!isnull(recs)) {
+//     name = recs.get("First_Name");
+//     email = recs.get("Email");
+//     phone = recs.get("Phone");
+//     if(!isnull(name) && !isnull(email) && !isnull(phone)) {
+//        info name + " " + email + " " + phone;
+//     } else {
+//        info "Not all required fields are present in this Lead record.";
+//     }
+//  } else {
+//     info "Lead record not found with specified ID.";
+//  }
+//To Pull all records at once
+// recs = zoho.crm.getRecords("Leads");
+// filteredRecords = recs.filter(function(rec) 
+// {
+//     return !isnull(rec.get("First_Name")) && !isnull(rec.get("Email")) && !isnull(rec.get("Phone"));
+// });
+// // for each rec in filteredRecords {
+// //     name = rec.get("First_Name");
+// //     email = rec.get("Email");
+// //     phone = rec.get("Phone");
+// //     info name + " " + email + " " + phone;
+// // }
