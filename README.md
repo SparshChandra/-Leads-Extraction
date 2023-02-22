@@ -11,3 +11,8 @@ Selected the Leads Module and wrote a function for extraction
 
 <img width="1302" alt="Screen Shot 2023-02-22 at 2 50 24 AM" src="https://user-images.githubusercontent.com/102770866/220556427-e89ff65f-9a7f-43a1-ba72-776a1b219b58.png">
 
+
+
+
+
+<img width="1357" alt="Screen Shot 2023-02-22 at 2 51 23 AM" src="https://user-images.githubusercontent.com/102770866/220556576-78abfb6c-f858-47e0-8014-49e329cfcf9f.png">
